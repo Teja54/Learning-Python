@@ -42,3 +42,26 @@ z = list(tup6)
 z.remove('a')
 #Covert back to tuple
 tup6 = tuple(z)
+
+#Other operations
+#Length of tuple
+length = len(tup6)
+print(length)
+
+#concatation
+a = (1, 2, 3)
+b= (4, 5, 6)
+c = a + b
+print(c)
+
+#Repetation
+repeat = ('hii!',) * 4
+print(repeat)
+
+#Membership
+member = 3 in c
+print(member)
+
+#Iteration
+for x in c:
+  print(x)
