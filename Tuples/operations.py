@@ -33,4 +33,12 @@ print(tup)
 del tup #Deleted tuple completely
 #print(tup)
 
-#Another method of 
+#Another method of delete or remove individual values
+#Example
+tup6 = ('1', '2', 'a', '3')
+#Step1: convert to list
+z = list(tup6)
+#Step2: Remove individual element from list
+z.remove('a')
+#Covert back to tuple
+tup6 = tuple(z)
