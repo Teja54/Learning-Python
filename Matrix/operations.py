@@ -25,3 +25,18 @@ add_row_to_t = append(t, [['Avg',12,15,13,11]], 0) #Here 0 indicates row
 print(add_row_to_t)
 
 #Adding Column
+add_column_to_t = insert(t, [5], [[1], [2], [3], [4], [5], [6], [7]], 1) #Here 1 indicates column
+print(add_column_to_t)
+
+#Deleting a row
+t = delete(t, [2], 0) #0 for row 1 for column
+print(t) #Deleted wednesday row
+
+#Deleting a column
+t = delete(t, [2], 1) #1 for column
+print(t) #Deleted 3 column
+
+#Updating row 
+t[2] = ['Wed', '15', '20', '19'] #Resigning row
+print(t)
+

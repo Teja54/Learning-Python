@@ -29,7 +29,7 @@ print(tup)
 
 #Deleting Tuple
 #Since tuple are immutable(unchangeable) we cannot delete or remove individual values
-#But it is possible to delete whwole tuple completely
+#But it is possible to delete whole tuple completely
 del tup #Deleted tuple completely
 #print(tup)
 
